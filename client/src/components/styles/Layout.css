@@ -1,0 +1,17 @@
+.layout{
+    background: url("../images/nasa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    margin: 20px 0 20px;
+}

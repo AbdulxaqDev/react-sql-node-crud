@@ -1,0 +1,64 @@
+form {
+    padding: 10px;
+    border: rgba(5, 59, 103, 0.321) solid 1px;
+    border-radius: 10px;
+    max-width: 30vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+}
+
+form div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form div button {
+    cursor: pointer;
+    width: 100px;
+    height: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background: rgba(34, 135, 31, 0.5);
+    font-family: 'Electrolize', sans-serif;
+}
+
+form div button:hover {
+    width: 100px;
+    height: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background: rgba(34, 135, 31, 0.5);
+}
+
+form div button:hover {
+    background: rgba(34, 135, 31, 0.7);
+}
+
+form div,
+form input {
+    width: 96%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+form input {
+    padding: 0 10px;
+    border-radius: 7px;
+    outline: none;
+    border: rgba(5, 59, 103, 0.321) solid 1px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
