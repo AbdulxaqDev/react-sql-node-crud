@@ -1,0 +1,13 @@
+#error-page{
+    padding: 10px;
+    border: rgba(5, 59, 103, 0.321) solid 1px;
+    border-radius: 10px;
+    max-width: 30vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    color: white;
+}

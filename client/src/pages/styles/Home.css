@@ -1,0 +1,28 @@
+.add {
+    max-width: 60vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+.add a {
+    height: 40px;
+}
+
+
+.add button {
+    margin-top: 15px;
+    backdrop-filter: blur(2px);
+    background: rgba(5, 59, 103, 0.7);
+    border: rgba(5, 59, 103, 0.7) solid 1px;
+    cursor: pointer;
+    font-family: 'Electrolize', sans-serif;
+    width: 100px;
+    height: 95%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
